@@ -336,6 +336,11 @@
 		7C132449165FAEB500FC65DC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C132427165FADC900FC65DC /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7C132451165FB11A00FC65DC /* TV_MathsiGCSE_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C13244F165FB11A00FC65DC /* TV_MathsiGCSE_header.png */; };
 		7C132452165FB11A00FC65DC /* TV_MathsiGCSE_header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C132450165FB11A00FC65DC /* TV_MathsiGCSE_header@2x.png */; };
+		7C21288016970367008FAF30 /* MATHS-CAMBRIDGE-IGCSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C21287E16970367008FAF30 /* MATHS-CAMBRIDGE-IGCSE.pdf */; };
+		7C21288116970367008FAF30 /* MATHS-EDEXCEL-IGCSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C21287F16970367008FAF30 /* MATHS-EDEXCEL-IGCSE.pdf */; };
+		7C212883169703BD008FAF30 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C212882169703BD008FAF30 /* nav_btn_coverage_deselected.png */; };
+		7C21288816970765008FAF30 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21288516970688008FAF30 /* Coverage.m */; };
+		7C21288916970765008FAF30 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21288716970688008FAF30 /* CoverageViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -704,6 +709,13 @@
 		7C132434165FAE2A00FC65DC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		7C13244F165FB11A00FC65DC /* TV_MathsiGCSE_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TV_MathsiGCSE_header.png; sourceTree = "<group>"; };
 		7C132450165FB11A00FC65DC /* TV_MathsiGCSE_header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TV_MathsiGCSE_header@2x.png"; sourceTree = "<group>"; };
+		7C21287E16970367008FAF30 /* MATHS-CAMBRIDGE-IGCSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MATHS-CAMBRIDGE-IGCSE.pdf"; sourceTree = "<group>"; };
+		7C21287F16970367008FAF30 /* MATHS-EDEXCEL-IGCSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MATHS-EDEXCEL-IGCSE.pdf"; sourceTree = "<group>"; };
+		7C212882169703BD008FAF30 /* nav_btn_coverage_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_btn_coverage_deselected.png; sourceTree = "<group>"; };
+		7C21288416970688008FAF30 /* Coverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Coverage.h; sourceTree = "<group>"; };
+		7C21288516970688008FAF30 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
+		7C21288616970688008FAF30 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
+		7C21288716970688008FAF30 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -732,6 +744,7 @@
 		7C132155165FA76A00FC65DC = {
 			isa = PBXGroup;
 			children = (
+				7C21287C16970356008FAF30 /* Files */,
 				7C132199165FA82300FC65DC /* facebook-ios-sdk */,
 				7C1321AB165FA87100FC65DC /* Analytics */,
 				7C1321AE165FA8A900FC65DC /* Video Images */,
@@ -1125,6 +1138,10 @@
 				7C1323C8165FA9C200FC65DC /* TermsAndConditions.m */,
 				7C1323C9165FA9C200FC65DC /* HowtoUse.h */,
 				7C1323CA165FA9C200FC65DC /* HowtoUse.m */,
+				7C21288416970688008FAF30 /* Coverage.h */,
+				7C21288516970688008FAF30 /* Coverage.m */,
+				7C21288616970688008FAF30 /* CoverageViewer.h */,
+				7C21288716970688008FAF30 /* CoverageViewer.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1188,12 +1205,22 @@
 		7C132413165FAA3F00FC65DC /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				7C212882169703BD008FAF30 /* nav_btn_coverage_deselected.png */,
 				7C132414165FAA4F00FC65DC /* buy_now.png */,
 				7C132415165FAA4F00FC65DC /* btn_videos_deselected.png */,
 				7C132416165FAA4F00FC65DC /* btn_share_deselected.png */,
 				7C132417165FAA4F00FC65DC /* 60-signpost.png */,
 			);
 			name = Icons;
+			sourceTree = "<group>";
+		};
+		7C21287C16970356008FAF30 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C21287E16970367008FAF30 /* MATHS-CAMBRIDGE-IGCSE.pdf */,
+				7C21287F16970367008FAF30 /* MATHS-EDEXCEL-IGCSE.pdf */,
+			);
+			name = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1544,6 +1571,9 @@
 				7C132425165FACEC00FC65DC /* MainWindow.xib in Resources */,
 				7C132451165FB11A00FC65DC /* TV_MathsiGCSE_header.png in Resources */,
 				7C132452165FB11A00FC65DC /* TV_MathsiGCSE_header@2x.png in Resources */,
+				7C21288016970367008FAF30 /* MATHS-CAMBRIDGE-IGCSE.pdf in Resources */,
+				7C21288116970367008FAF30 /* MATHS-EDEXCEL-IGCSE.pdf in Resources */,
+				7C212883169703BD008FAF30 /* nav_btn_coverage_deselected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1554,6 +1584,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C21288816970765008FAF30 /* Coverage.m in Sources */,
+				7C21288916970765008FAF30 /* CoverageViewer.m in Sources */,
 				7C132437165FAEB500FC65DC /* ConfigObject.m in Sources */,
 				7C132438165FAEB500FC65DC /* LearnersCloudSamplesVideos.m in Sources */,
 				7C132439165FAEB500FC65DC /* AdminDashBoard.m in Sources */,
@@ -1704,6 +1736,7 @@
 				7C132194165FA76A00FC65DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
