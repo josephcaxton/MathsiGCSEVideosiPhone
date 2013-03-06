@@ -341,6 +341,7 @@
 		7C212883169703BD008FAF30 /* nav_btn_coverage_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C212882169703BD008FAF30 /* nav_btn_coverage_deselected.png */; };
 		7C21288816970765008FAF30 /* Coverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21288516970688008FAF30 /* Coverage.m */; };
 		7C21288916970765008FAF30 /* CoverageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C21288716970688008FAF30 /* CoverageViewer.m */; };
+		7C6BE4C716E797C100122F68 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C6BE4C616E795AE00122F68 /* ListCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -716,6 +717,8 @@
 		7C21288516970688008FAF30 /* Coverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coverage.m; sourceTree = "<group>"; };
 		7C21288616970688008FAF30 /* CoverageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverageViewer.h; sourceTree = "<group>"; };
 		7C21288716970688008FAF30 /* CoverageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverageViewer.m; sourceTree = "<group>"; };
+		7C6BE4C516E795AE00122F68 /* ListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		7C6BE4C616E795AE00122F68 /* ListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -744,6 +747,7 @@
 		7C132155165FA76A00FC65DC = {
 			isa = PBXGroup;
 			children = (
+				7C6BE4C416E7959F00122F68 /* Table Cells */,
 				7C21287C16970356008FAF30 /* Files */,
 				7C132199165FA82300FC65DC /* facebook-ios-sdk */,
 				7C1321AB165FA87100FC65DC /* Analytics */,
@@ -1223,6 +1227,15 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
+		7C6BE4C416E7959F00122F68 /* Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7C6BE4C516E795AE00122F68 /* ListCell.h */,
+				7C6BE4C616E795AE00122F68 /* ListCell.m */,
+			);
+			name = "Table Cells";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1584,6 +1597,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6BE4C716E797C100122F68 /* ListCell.m in Sources */,
 				7C21288816970765008FAF30 /* Coverage.m in Sources */,
 				7C21288916970765008FAF30 /* CoverageViewer.m in Sources */,
 				7C132437165FAEB500FC65DC /* ConfigObject.m in Sources */,
