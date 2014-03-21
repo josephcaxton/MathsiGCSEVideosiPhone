@@ -1317,6 +1317,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Joseph caxton-Idowu";
+				TargetAttributes = {
+					7C13215F165FA76A00FC65DC = {
+						DevelopmentTeam = 9RNCM436XC;
+					};
+				};
 			};
 			buildConfigurationList = 7C13215A165FA76A00FC65DC /* Build configuration list for PBXProject "MathsiGCSEVideosiPhone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1761,7 +1766,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
@@ -1772,7 +1778,7 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = iGCSE;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "94F7D81E-048F-480C-A750-2A66777E64D6";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1782,8 +1788,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
@@ -1794,8 +1800,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = iGCSE;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "83BB9705-E804-43C4-A8BB-B64F904F2962";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83BB9705-E804-43C4-A8BB-B64F904F2962";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};

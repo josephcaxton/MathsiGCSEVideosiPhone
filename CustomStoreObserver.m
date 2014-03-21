@@ -207,7 +207,7 @@
     }
     
     else {
-        return @"Error";
+        return @"0";
     }
     
         
@@ -301,7 +301,7 @@
         if (buttonIndex == 1)
         {
             // Update Username and password in Database
-            for (UIView* view in actionSheet.subviews)
+            /*for (UIView* view in actionSheet.subviews)
             {
                 if ([view isKindOfClass:[UITextField class]])
                 {
@@ -315,11 +315,11 @@
                     {
                         Password = [[NSString alloc]initWithString:textField.text == nil ? @"" : textField.text];
                         [textField resignFirstResponder];
-                    }
+                    } */
                     
                    // break;
-                }
-            }
+            EmailAddress = [actionSheet textFieldAtIndex:0].text;
+            Password = [actionSheet textFieldAtIndex:1].text;
 
             
             
