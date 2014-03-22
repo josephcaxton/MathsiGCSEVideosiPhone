@@ -358,6 +358,7 @@
 		7CF86CD516FB2CDD00D3452B /* website_promo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF86CD316FB2CDD00D3452B /* website_promo.png */; };
 		7CF86CD616FB2CDD00D3452B /* website_promo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF86CD416FB2CDD00D3452B /* website_promo@2x.png */; };
 		7CF86CD816FB2DA800D3452B /* HowtouseVideoStreamer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7CF86CD716FB2DA800D3452B /* HowtouseVideoStreamer.pdf */; };
+		CDE4671D18DC44A000A23CF8 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE4671C18DC44A000A23CF8 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -753,6 +754,7 @@
 		7CF86CD316FB2CDD00D3452B /* website_promo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website_promo.png; sourceTree = "<group>"; };
 		7CF86CD416FB2CDD00D3452B /* website_promo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "website_promo@2x.png"; sourceTree = "<group>"; };
 		7CF86CD716FB2DA800D3452B /* HowtouseVideoStreamer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = HowtouseVideoStreamer.pdf; sourceTree = "<group>"; };
+		CDE4671C18DC44A000A23CF8 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -840,6 +842,7 @@
 				7C132423165FACCA00FC65DC /* UnderlinedButton.m */,
 				7C75F8B917AD8940003281A7 /* TransparentToolBar.h */,
 				7C75F8BA17AD8940003281A7 /* TransparentToolBar.m */,
+				CDE4671C18DC44A000A23CF8 /* Images-2.xcassets */,
 				7C13216B165FA76A00FC65DC /* Supporting Files */,
 			);
 			path = MathsiGCSEVideosiPhone;
@@ -1315,7 +1318,7 @@
 		7C132157165FA76A00FC65DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Joseph caxton-Idowu";
 				TargetAttributes = {
 					7C13215F165FA76A00FC65DC = {
@@ -1449,6 +1452,7 @@
 				7C132318165FA8D500FC65DC /* img100.png in Resources */,
 				7C132319165FA8D500FC65DC /* img101.png in Resources */,
 				7C13231A165FA8D500FC65DC /* img102.png in Resources */,
+				CDE4671D18DC44A000A23CF8 /* Images-2.xcassets in Resources */,
 				7C13231B165FA8D500FC65DC /* img103.png in Resources */,
 				7C13231C165FA8D500FC65DC /* img104.png in Resources */,
 				7C13231D165FA8D500FC65DC /* img105.png in Resources */,
@@ -1765,18 +1769,20 @@
 		7C132193165FA76A00FC65DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/facebook-ios-sdk\"",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = iGCSE;
 				PROVISIONING_PROFILE = "94F7D81E-048F-480C-A750-2A66777E64D6";
 				VALID_ARCHS = armv7;
@@ -1787,13 +1793,14 @@
 		7C132194165FA76A00FC65DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/facebook-ios-sdk\"",
