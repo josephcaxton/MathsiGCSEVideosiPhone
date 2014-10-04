@@ -1771,8 +1771,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
@@ -1784,7 +1784,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = iGCSE;
-				PROVISIONING_PROFILE = "94F7D81E-048F-480C-A750-2A66777E64D6";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -1795,8 +1795,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Prefix.pch";
 				INFOPLIST_FILE = "MathsiGCSEVideosiPhone/MathsiGCSEVideosiPhone-Info.plist";
@@ -1807,8 +1807,8 @@
 					"\"$(SRCROOT)\"",
 				);
 				PRODUCT_NAME = iGCSE;
-				PROVISIONING_PROFILE = "83BB9705-E804-43C4-A8BB-B64F904F2962";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83BB9705-E804-43C4-A8BB-B64F904F2962";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
